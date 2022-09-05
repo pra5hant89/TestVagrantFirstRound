@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/IntellijProjects/TestVagrantFirstRound">
+        <classes>
+            <class name="com.testvagrant.tests.TeamTest">
+                <methods>
+                    <include name="testOnlyFourForeignPlayers"/>
+                    <include name="atLeastOneWicketKeeperInTeam"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

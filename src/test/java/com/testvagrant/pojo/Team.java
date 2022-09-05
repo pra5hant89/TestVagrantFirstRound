@@ -14,7 +14,7 @@ public class Team {
     @JsonProperty("location")
     private String location;
 
-    @JsonProperty("playerList")
+    @JsonProperty("player")
     private List<Player> playerList = null;
 
     @JsonProperty("name")
@@ -36,11 +36,11 @@ public class Team {
         this.location = location;
     }
 
-    @JsonProperty("playerList")
+    @JsonProperty("player")
     public List<Player> getPlayerList() {
         return playerList;
     }
-    @JsonProperty("playerList")
+    @JsonProperty("player")
     public void setPlayerList(List<Player> playerList) {
         this.playerList = playerList;
     }
